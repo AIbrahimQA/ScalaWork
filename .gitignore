@@ -1,5 +1,5 @@
 # Project exclude paths
-/target/
-/target/scala-2.13/classes/
+/target
+
 *.iml
 project/target
