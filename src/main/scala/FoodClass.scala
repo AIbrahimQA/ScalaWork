@@ -1,11 +1,10 @@
 object FoodClass extends App {
 
 
-// define class with parameters
-  class FoodClass (val foodName: String, var quantity: Int) {
+  // define class with parameters
+  class FoodClass(val foodName: String, var quantity: Int) {
     override def toString: String = s"THe food is $foodName and the quantity is $quantity"
   }
-
 
 
   // creating the objects of the food class
@@ -18,14 +17,10 @@ object FoodClass extends App {
   println(chicken.toString)
 
 
-
-// accessing the values and reassigning the values to them.
+  // accessing the values and reassigning the values to them.
   println(pizza.quantity)
-  pizza.quantity= 10
+  pizza.quantity = 10
   println(pizza.toString)
-
-
-
 
 
 }
