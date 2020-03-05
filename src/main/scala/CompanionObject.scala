@@ -3,7 +3,7 @@ object CompanionObject {
 
   class Drink(var drinkName: String, val price: Double) {
     def printDrinkInfo(): Unit = {
-      println(s"The drink is $drinkName and the price is £$price")
+      println(s"The drink is $drinkName and the price is $price")
     }
   }
 
