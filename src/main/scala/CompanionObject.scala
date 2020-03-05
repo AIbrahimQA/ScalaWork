@@ -1,4 +1,4 @@
-object CompanionObject extends App {
+object CompanionObject {
 
 
   class Drink(var drinkName: String, val price: Double) {
@@ -26,6 +26,7 @@ object CompanionObject extends App {
     }
   }
 
+
   val orange = Drink("Orange", 2.55)
   val apple = Drink("Apple", 3.23)
 
@@ -36,6 +37,7 @@ object CompanionObject extends App {
   println(s"Orange is of the instance Orange: ${orange.isInstanceOf[Orange]}")
 
   println(s"Apple is of the instance Apple: ${apple.isInstanceOf[Apple]}")
+
 
 
 }
