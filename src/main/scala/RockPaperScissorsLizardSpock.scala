@@ -8,7 +8,23 @@
 //Spock smashes scissors, spock vaporizes rock
 //Lizard eats paper , lizard poisons spock
 
-object RockPaperScissorsLizardSpock {
+object RockPaperScissorsLizardSpock extends App {
+
+  welcome()
+
+  def welcome(){
+
+    val welcome = "Welcome to Rock, Paper, Scissors, Lizard, Spock"
+
+    val rules =
+
+    println("The ways this game can be won are bellow")
+
+
+
+  }
+
+
 
 
 }
