@@ -12,19 +12,25 @@ object RockPaperScissorsLizardSpock extends App {
 
   welcome()
 
-  def welcome(){
+  def welcome() {
 
     val welcome = "Welcome to Rock, Paper, Scissors, Lizard, Spock"
-
-    val rules =
-
-    println("The ways this game can be won are bellow")
-
-
+    val rules = "The ways this game can be won are bellow"
+    val waysToWin =
+      """
+        |Rock crushes scissors , rock crushes lizard
+        |Paper covers rock, paper disproves spock
+        |Scissors cuts paper, scissors decapitates lizard
+        |Spock smashes scissors, spock vaporizes rock
+        |Lizard eats paper , lizard poisons spock
+      """.stripMargin
+    println(Console.BOLD)
+    println(welcome)
+    println(Console.BOLD)
+    println(rules)
+    println(Console.BOLD)
+    println(waysToWin)
 
   }
-
-
-
 
 }
