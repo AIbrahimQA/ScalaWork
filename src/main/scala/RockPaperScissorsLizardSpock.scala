@@ -1,3 +1,5 @@
+import java.util
+
 
 // TODO
 // Rock, Paper, Scissors, Lizard, Spock
@@ -8,7 +10,9 @@
 //Spock smashes scissors, spock vaporizes rock
 //Lizard eats paper , lizard poisons spock
 
-object RockPaperScissorsLizardSpock extends App {
+object RockPaperScissorsLizardSpock{
+  import scala.collection.mutable.LinkedHashMap
+
 
   welcome()
 
@@ -32,5 +36,19 @@ object RockPaperScissorsLizardSpock extends App {
     println(waysToWin)
 
   }
+
+
+  def choice1(): Unit ={
+    val rock = "Rock"
+    val paper = "Paper"
+    val scissors = "Scissors"
+
+    val choice = List(rock,paper,scissors)
+  }
+
+
+
+
+
 
 }
