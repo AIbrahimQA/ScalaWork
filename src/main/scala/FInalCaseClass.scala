@@ -1,4 +1,4 @@
-object FinalCaseClass {
+object FinalCaseClass extends App {
 
   final case class computerParts(name: String, price: Double, qty: Int)
 
